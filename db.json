@@ -3,9 +3,18 @@
     {
       "id": 1,
       "title": "hello"
+    },
+    {
+      "id": 2,
+      "title": "hello"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "formation_types": [
+    { "title": "PSC1" },
+    { "title": "IPS" },
+    { "title": "IPSEN" },
+    { "title": "Formation continue PSC1" },
+    { "title": "Les gestes qui sauvent" },
+    { "title": "Toutes les formations" }
+  ]
 }
