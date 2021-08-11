@@ -17,7 +17,7 @@
       "label": "Type 4"
     },
     {
-      "id": "0",
+      "id": "all",
       "label": "Toutes les formations"
     }
   ],
@@ -132,28 +132,37 @@
     }
   ],
 
-  "formations_results": [
+  "formations": [
     {
       "id": "1543",
       "type": "1",
       "title": "Nom de la formation",
-      "format": "Présentiel",
+      "format": "onsite",
+      "duration": "1 jour",
       "reviews": {
         "number": "4",
         "rate": "3"
       },
-      "location": "Paris - 2ième arrondissement",
-      "distance": "600m",
-      "duration": "1 jour",
-      "price": "45,00",
+      "place": "Paris - 2ième arrondissement",
+      "location": {
+        "id" : "Paris",
+        "codeDepartment" : "75002",
+        "place": "Paris - 2ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "price": {
+        "value": "45,00",
+        "detail": "Lorem ipsum dolor sit amet"
+      },
       "sessions": [
         {
           "date": "11.12.2021",
-          "availablity": "3"
+          "availability": "3"
         },
         {
           "date": "13.12.2021",
-          "availablity": "10"
+          "availability": "10"
         }
       ],
       "registration": true
@@ -162,36 +171,46 @@
       "id": "2351",
       "type": "1",
       "title": "Nom de la formation",
-      "format": "En ligne",
+      "format": "elearning",
+      "duration": "4 heures",
       "reviews": {
         "number": "12",
         "rate": "3"
       },
-      "duration": "4 heures",
-      "price": "30,00",
+      "price": {
+        "value": "30,00",
+      },
       "registration": true
     },
     {
       "id": "3485",
       "type": "1",
       "title": "Nom de la formation",
-      "format": "Présentiel",
+      "format": "onsite",
+      "duration": "1 jour",
       "reviews": {
         "number": "1",
         "rate": "4"
       },
-      "location": "Paris - 8ième arrondissement",
-      "distance": "15km",
-      "duration": "1 jour",
-      "price": "45,00",
+      "location": {
+        "id" : "Paris",
+        "codeDepartment" : "75008",
+        "place": "Paris - 8ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "price": {
+        "value": "45,00",
+        "detail": "Lorem ipsum dolor sit amet"
+      },
       "sessions": [
         {
           "date": "11.12.2021",
-          "availablity": "0"
+          "availability": "0"
         },
         {
           "date": "13.12.2021",
-          "availablity": "8"
+          "availability": "8"
         }
       ],
       "registration": false
@@ -200,23 +219,31 @@
       "id": "3012",
       "type": "1",
       "title": "Nom de la formation",
-      "format": "Présentiel",
+      "format": "onsite",
+      "duration": "1 jour",
       "reviews": {
         "number": "1",
         "rate": "4"
       },
-      "location": "Paris - 11ième arrondissement",
-      "distance": "20km",
-      "duration": "1 jour",
-      "price": "45,00",
+      "location": {
+        "id" : "Paris",
+        "codeDepartment" : "75011",
+        "place": "Paris - 11ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "price": {
+        "value": "45,00",
+        "detail": "Lorem ipsum dolor sit amet"
+      },
       "sessions": [
         {
-          "date": "10.12.2021",
-          "availablity": "8"
+          "date": "12.12.2021",
+          "availability": "8"
         },
         {
           "date": "13.12.2021",
-          "availablity": "8"
+          "availability": "8"
         }
       ],
       "registration": false
