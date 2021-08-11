@@ -522,6 +522,54 @@
       "lng": "2.2069771"
     },
     "volunteers": "15",
-    "availability": "5"
+    "availability": "5",
+    "related_training": ["1", "2"]
+  },
+  "mission_teaser": {
+    "id": "1543",
+    "title": "Nom de la mission",
+    "date": "lundi soir",
+    "activities": [
+      {
+        "id": "1",
+        "label": "lorem"
+      },
+      {
+        "id": "2",
+        "label": "ipsum"
+      }
+    ],
+    "location" : "Paris"
+  },
+  "mission_account": {
+    "id": "1543",
+    "title": "Nom de la mission",
+    "type": "team",
+    "date": "lundi soir",
+    "activities": [
+      {
+        "id": "1",
+        "label": "lorem"
+      },
+      {
+        "id": "2",
+        "label": "ipsum"
+      }
+    ],
+    "location" : "Paris",
+    "address": {
+      "department" : "75002",
+      "city": "Paris - 2ième arrondissement",
+      "lat": "48.8587741",
+      "lng": "2.2069771"
+    },
+    "structure": {
+      "id": "4500",
+      "name": "Paris - 2ième arrondissement",
+      "tel": "00 00 00 00 00",
+      "mail": "mail@structure.com"
+    },
+    "status": "pending",
+    "attestation": "https://www.fichier-pdf.fr/2020/06/11/lorem-ipsum-1/?"
   }
 }
