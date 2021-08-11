@@ -374,7 +374,7 @@
       {
         "date": "11.12.2021",
         "hour_start": "9h",
-        "hour_end": "18h",
+        "hour_end": "18h"
       }
     ],
     "structure": {
@@ -385,6 +385,6 @@
     },
     "status": "pending",
     "bill": "https://www.fichier-pdf.fr/2020/06/11/lorem-ipsum-1/?",
-    "degree": "https://www.fichier-pdf.fr/2017/01/03/cv-1/",
+    "degree": "https://www.fichier-pdf.fr/2017/01/03/cv-1/"
   }
 }
