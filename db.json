@@ -299,35 +299,11 @@
   },
   "missions": [
     {
-      "id": "1543",
-      "title": "Nom de la mission",
-      "format": "onsite",
-      "time": "lundi soir",
-      "activities": [
-        {
-          "id": "1",
-          "label": "lorem"
-        },
-        {
-          "id": "2",
-          "label": "ipsum"
-        }
-      ],
-      "location" : "Paris",
-      "address": {
-        "department" : "75002",
-        "city": "Paris - 2ième arrondissement",
-        "lat": "48.8587741",
-        "lng": "2.2069771"
-      },
-      "volunteers": "15",
-      "availability": "5"
-    },
-    {
       "id": "35814",
       "title": "Nom de la mission",
-      "format": "onsite",
-      "time": "lundi soir",
+      "type": "contact",
+      "date": "demain soir",
+      "recurrence": false,
       "activities": [
         {
           "id": "1",
@@ -349,10 +325,63 @@
       "availability": "5"
     },
     {
+      "id": "1543",
+      "title": "Nom de la mission",
+      "type": "team",
+      "date": "lundi soir",
+      "recurrence": true,
+      "activities": [
+        {
+          "id": "1",
+          "label": "lorem"
+        },
+        {
+          "id": "2",
+          "label": "ipsum"
+        }
+      ],
+      "location" : "Paris",
+      "address": {
+        "department" : "75002",
+        "city": "Paris - 2ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "volunteers": "15",
+      "availability": "5"
+    },
+    {
       "id": "34521",
       "title": "Nom de la mission",
-      "format": "online",
-      "time": "soir",
+      "type": "support",
+      "date": "soir",
+      "recurrence": true,
+      "activities": [
+        {
+          "id": "1",
+          "label": "lorem"
+        },
+        {
+          "id": "2",
+          "label": "ipsum"
+        }
+      ],
+      "location" : "Paris",
+      "address": {
+        "department" : "750011",
+        "city": "Paris - 11ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "volunteers": "15",
+      "availability": "5"
+    },
+    {
+      "id": "34521",
+      "title": "Nom de la mission",
+      "type": "contact",
+      "date": "12.12.2021",
+      "recurrence": false,
       "activities": [
         {
           "id": "1",
