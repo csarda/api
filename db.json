@@ -1,20 +1,164 @@
 {
-  "posts": [
+  "formation_types": [
     {
-      "id": 1,
-      "title": "hello"
+      "id": "1",
+      "label": "PSC1"
     },
     {
-      "id": 2,
-      "title": "hello"
+      "id": "2",
+      "label": "Type 2"
+    },
+    {
+      "id": "3",
+      "label": "Type 3"
+    },
+    {
+      "id": "4",
+      "label": "Type 4"
+    },
+    {
+      "id": "0",
+      "label": "Toutes les formations"
     }
   ],
-  "formation_types": [
-    { "title": "PSC1" },
-    { "title": "IPS" },
-    { "title": "IPSEN" },
-    { "title": "Formation continue PSC1" },
-    { "title": "Les gestes qui sauvent" },
-    { "title": "Toutes les formations" }
+  "geo_ref": [
+    {
+      "nom":"Hérault",
+      "code":"34",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150", "34000", "34070"],
+      "population":1165000
+    },
+    {
+      "nom":"Aniane",
+      "code":"34010",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":2947
+    },
+    {
+      "nom":"Arboras",
+      "code":"34011",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":126
+    },
+    {
+      "nom":"La Boissière",
+      "code":"34035",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":1021
+    },
+    {
+      "nom":"Gignac",
+      "code":"34114",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":6074
+    },
+    {
+      "nom":"Lagamas",
+      "code":"34125",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":111
+    },
+    { "nom":"Montpeyroux",
+      "code":"34173",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":1334
+    },
+    {
+      "nom":"Puéchabon",
+      "code":"34221",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":483
+    },
+    {
+      "nom":"Saint-Guilhem-le-Désert",
+      "code":"34261",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":256
+    },
+    {
+      "nom":"Saint-Jean-de-Fos",
+      "code":"34267",
+      "codeDepartement":"34",
+      "codeRegion":"76",
+      "codesPostaux":["34150"],
+      "population":1672
+    }
+  ],
+  "formations_results": [
+    {
+      "title": "Nom de la formation",
+      "format": "Présentiel",
+      "avis": {
+        "nombre": "4",
+        "note": "3"
+      },
+      "lieu": "Paris - 11ième arrondissement",
+      "distance": "600m",
+      "durée": "1 jour",
+      "tarif": "45,00",
+      "seances": [
+        {
+          "date": "12.12.2021",
+          "dispo": "3"
+        },
+        {
+          "date": "13.12.2021",
+          "dispo": "10"
+        }
+      ],
+      "inscription": true
+    },
+    {
+      "title": "Nom de la formation",
+      "format": "En ligne",
+      "avis": {
+        "nombre": "12",
+        "note": "3"
+      },
+      "durée": "4 heures",
+      "tarif": "30,00",
+      "inscription": true
+    },
+    {
+      "title": "Nom de la formation",
+      "format": "Présentiel",
+      "avis": {
+        "nombre": "1",
+        "note": "4"
+      },
+      "lieu": "Sevran (93)",
+      "distance": "50km",
+      "durée": "1 jour",
+      "tarif": "45,00",
+      "seances": [
+        {
+          "date": "11.12.2021",
+          "dispo": "0"
+        },
+        {
+          "date": "13.12.2021",
+          "dispo": "8"
+        }
+      ],
+      "inscription": false
+    }
   ]
 }
