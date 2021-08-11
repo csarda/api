@@ -2,7 +2,7 @@
   "formation_types": [
     {
       "id": "1",
-      "label": "PSC1"
+      "label": "ABCD1"
     },
     {
       "id": "2",
@@ -142,10 +142,11 @@
         "number": "4",
         "rate": "3"
       },
-      "location": {
-        "id" : "Paris",
+      "location" : "Paris",
+      "place": {
+        "name" : "Paris",
         "codeDepartment" : "75002",
-        "place": "Paris - 2ième arrondissement",
+        "city": "Paris - 2ième arrondissement",
         "lat": "48.8587741",
         "lng": "2.2069771"
       },
@@ -190,10 +191,11 @@
         "number": "1",
         "rate": "4"
       },
-      "location": {
-        "id" : "Paris",
+      "location" : "Paris",
+      "place": {
+        "name" : "Paris",
         "codeDepartment" : "75008",
-        "place": "Paris - 8ième arrondissement",
+        "city": "Paris - 8ième arrondissement",
         "lat": "48.8587741",
         "lng": "2.2069771"
       },
@@ -223,10 +225,11 @@
         "number": "1",
         "rate": "4"
       },
-      "location": {
-        "id" : "Paris",
+      "location" : "Paris",
+      "place": {
+        "name" : "Paris",
         "codeDepartment" : "75011",
-        "place": "Paris - 11ième arrondissement",
+        "city": "Paris - 11ième arrondissement",
         "lat": "48.8587741",
         "lng": "2.2069771"
       },
