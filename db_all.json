@@ -297,22 +297,72 @@
     ],
     "registration": true
   },
-  "missions": [
-    {
+  "formation_teaser": {
+    "id": "1543",
+    "type": "1",
+    "title": "Nom de la formation",
+    "image": "https://picsum.photos/1200/500",
+    "format": "onsite",
+    "duration": "1 jour",
+    "reviews": {
+      "number": "4",
+      "rate": "3"
+    },
+    "location" : "Paris"
+  },
+  "formation_subscribe": {
+    "id": "1543",
+    "type": "1",
+    "title": "Nom de la formation",
+    "teaser": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt ",
+    "image": "https://picsum.photos/1200/500",
+    "format": "onsite",
+    "duration": "1 jour",
+    "reviews": {
+      "number": "4",
+      "rate": "3"
+    },
+    "location" : "Paris",
+    "address": {
+      "department" : "75002",
+      "city": "Paris - 2ième arrondissement",
+      "lat": "48.8587741",
+      "lng": "2.2069771"
+    },
+    "price": {
+      "value": "45,00",
+      "discount": "40,00",
+      "detail": "Lorem ipsum dolor sit amet",
+      "vouchers": ["REDUC81358", "REDUC25447", "REDUC4XX47"]
+    },
+    "sessions": [
+      {
+        "date": "11.12.2021",
+        "hour_start": "9h",
+        "hour_end": "18h",
+        "availability": "3"
+      },
+      {
+        "date": "13.12.2021",
+        "hour_start": "9h",
+        "hour_end": "18h",
+        "availability": "10"
+      }
+    ],
+    "structure": {
+      "id": "4500",
+      "name": "Paris - 2ième arrondissement",
+      "tel": "00 00 00 00 00",
+      "mail": "mail@structure.com"
+    },
+    "registration": true
+  },
+  "formation_account": {
       "id": "1543",
-      "title": "Nom de la mission",
+      "type": "1",
+      "title": "Nom de la formation",
       "format": "onsite",
-      "time": "lundi soir",
-      "activities": [
-        {
-          "id": "1",
-          "label": "lorem"
-        },
-        {
-          "id": "2",
-          "label": "ipsum"
-        }
-      ],
+      "duration": "1 jour",
       "location" : "Paris",
       "address": {
         "department" : "75002",
@@ -320,58 +370,48 @@
         "lat": "48.8587741",
         "lng": "2.2069771"
       },
-      "volunteers": "15",
-      "availability": "5"
-    },
-    {
-      "id": "35814",
-      "title": "Nom de la mission",
-      "format": "onsite",
-      "time": "lundi soir",
-      "activities": [
+      "sessions": [
         {
-          "id": "1",
-          "label": "lorem"
-        },
-        {
-          "id": "2",
-          "label": "ipsum"
+          "date": "11.12.2021",
+          "hour_start": "9h",
+          "hour_end": "18h"
         }
       ],
-      "location" : "Paris",
-      "address": {
-        "department" : "75008",
-        "city": "Paris - 8ième arrondissement",
-        "lat": "48.8587741",
-        "lng": "2.2069771"
+      "structure": {
+        "id": "4500",
+        "name": "Paris - 2ième arrondissement",
+        "tel": "00 00 00 00 00",
+        "mail": "mail@structure.com"
       },
-      "volunteers": "15",
-      "availability": "5"
+      "status": "pending",
+      "bill": "https://www.fichier-pdf.fr/2020/06/11/lorem-ipsum-1/?",
+      "degree": "https://www.fichier-pdf.fr/2017/01/03/cv-1/"
     },
-    {
-      "id": "34521",
-      "title": "Nom de la mission",
-      "format": "online",
-      "time": "soir",
-      "activities": [
-        {
-          "id": "1",
-          "label": "lorem"
-        },
-        {
-          "id": "2",
-          "label": "ipsum"
-        }
-      ],
-      "location" : "Paris",
-      "address": {
-        "department" : "750011",
-        "city": "Paris - 11ième arrondissement",
-        "lat": "48.8587741",
-        "lng": "2.2069771"
+  "mission_detail": {
+    "id": "1543",
+    "title": "Nom de la mission",
+    "teaser": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt ",
+    "image": "https://picsum.photos/1200/500",
+    "format": "onsite",
+    "time": "lundi soir",
+    "activities": [
+      {
+        "id": "1",
+        "label": "lorem"
       },
-      "volunteers": "15",
-      "availability": "5"
-    }
-  ]
+      {
+        "id": "2",
+        "label": "ipsum"
+      }
+    ],
+    "location" : "Paris",
+    "address": {
+      "department" : "75002",
+      "city": "Paris - 2ième arrondissement",
+      "lat": "48.8587741",
+      "lng": "2.2069771"
+    },
+    "volunteers": "15",
+    "availability": "5"
+  }
 }
