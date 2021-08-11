@@ -392,6 +392,7 @@
       "id": "35814",
       "title": "Nom de la mission",
       "type": "contact",
+      "public": "children",
       "date": "demain soir",
       "recurrence": false,
       "activities": [
@@ -418,6 +419,7 @@
       "id": "1543",
       "title": "Nom de la mission",
       "type": "team",
+      "public": "all",
       "date": "lundi soir",
       "recurrence": true,
       "activities": [
@@ -444,6 +446,7 @@
       "id": "34521",
       "title": "Nom de la mission",
       "type": "support",
+      "public": "all",
       "date": "soir",
       "recurrence": true,
       "activities": [
@@ -470,6 +473,7 @@
       "id": "34521",
       "title": "Nom de la mission",
       "type": "contact",
+      "public": "all",
       "date": "12.12.2021",
       "recurrence": false,
       "activities": [
