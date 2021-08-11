@@ -23,142 +23,203 @@
   ],
   "geo_ref": [
     {
-      "nom":"Hérault",
+      "name": "Paris",
+      "code": "75056",
+      "codeDepartment": "75",
+      "codeRegion": "11",
+      "codesPostal": [
+        "75001",
+        "75002",
+        "75003",
+        "75004",
+        "75005",
+        "75006",
+        "75007",
+        "75008",
+        "75009",
+        "75010",
+        "75011",
+        "75012",
+        "75013",
+        "75014",
+        "75015",
+        "75016",
+        "75017",
+        "75018",
+        "75019",
+        "75020"
+      ],
+      "population": 2190327
+    },
+    {
+      "name":"Hérault",
       "code":"34",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150", "34000", "34070"],
+      "codesPostal":["34150", "34000", "34070"],
       "population":1165000
     },
     {
-      "nom":"Aniane",
+      "name":"Aniane",
       "code":"34010",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":2947
     },
     {
-      "nom":"Arboras",
+      "name":"Arboras",
       "code":"34011",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":126
     },
     {
-      "nom":"La Boissière",
+      "name":"La Boissière",
       "code":"34035",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":1021
     },
     {
-      "nom":"Gignac",
+      "name":"Gignac",
       "code":"34114",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":6074
     },
     {
-      "nom":"Lagamas",
+      "name":"Lagamas",
       "code":"34125",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":111
     },
-    { "nom":"Montpeyroux",
+    { "name":"Montpeyroux",
       "code":"34173",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":1334
     },
     {
-      "nom":"Puéchabon",
+      "name":"Puéchabon",
       "code":"34221",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":483
     },
     {
-      "nom":"Saint-Guilhem-le-Désert",
+      "name":"Saint-Guilhem-le-Désert",
       "code":"34261",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":256
     },
     {
-      "nom":"Saint-Jean-de-Fos",
+      "name":"Saint-Jean-de-Fos",
       "code":"34267",
-      "codeDepartement":"34",
+      "codeDepartment":"34",
       "codeRegion":"76",
-      "codesPostaux":["34150"],
+      "codesPostal":["34150"],
       "population":1672
     }
   ],
+
   "formations_results": [
     {
+      "id": "1543",
+      "type": "1",
       "title": "Nom de la formation",
       "format": "Présentiel",
-      "avis": {
-        "nombre": "4",
-        "note": "3"
+      "reviews": {
+        "number": "4",
+        "rate": "3"
       },
-      "lieu": "Paris - 11ième arrondissement",
+      "location": "Paris - 2ième arrondissement",
       "distance": "600m",
-      "durée": "1 jour",
-      "tarif": "45,00",
-      "seances": [
-        {
-          "date": "12.12.2021",
-          "dispo": "3"
-        },
-        {
-          "date": "13.12.2021",
-          "dispo": "10"
-        }
-      ],
-      "inscription": true
-    },
-    {
-      "title": "Nom de la formation",
-      "format": "En ligne",
-      "avis": {
-        "nombre": "12",
-        "note": "3"
-      },
-      "durée": "4 heures",
-      "tarif": "30,00",
-      "inscription": true
-    },
-    {
-      "title": "Nom de la formation",
-      "format": "Présentiel",
-      "avis": {
-        "nombre": "1",
-        "note": "4"
-      },
-      "lieu": "Sevran (93)",
-      "distance": "50km",
-      "durée": "1 jour",
-      "tarif": "45,00",
-      "seances": [
+      "duration": "1 jour",
+      "price": "45,00",
+      "sessions": [
         {
           "date": "11.12.2021",
-          "dispo": "0"
+          "availablity": "3"
         },
         {
           "date": "13.12.2021",
-          "dispo": "8"
+          "availablity": "10"
         }
       ],
-      "inscription": false
+      "registration": true
+    },
+    {
+      "id": "2351",
+      "type": "1",
+      "title": "Nom de la formation",
+      "format": "En ligne",
+      "reviews": {
+        "number": "12",
+        "rate": "3"
+      },
+      "duration": "4 heures",
+      "price": "30,00",
+      "registration": true
+    },
+    {
+      "id": "3485",
+      "type": "1",
+      "title": "Nom de la formation",
+      "format": "Présentiel",
+      "reviews": {
+        "number": "1",
+        "rate": "4"
+      },
+      "location": "Paris - 8ième arrondissement",
+      "distance": "15km",
+      "duration": "1 jour",
+      "price": "45,00",
+      "sessions": [
+        {
+          "date": "11.12.2021",
+          "availablity": "0"
+        },
+        {
+          "date": "13.12.2021",
+          "availablity": "8"
+        }
+      ],
+      "registration": false
+    },
+    {
+      "id": "3012",
+      "type": "1",
+      "title": "Nom de la formation",
+      "format": "Présentiel",
+      "reviews": {
+        "number": "1",
+        "rate": "4"
+      },
+      "location": "Paris - 11ième arrondissement",
+      "distance": "20km",
+      "duration": "1 jour",
+      "price": "45,00",
+      "sessions": [
+        {
+          "date": "10.12.2021",
+          "availablity": "8"
+        },
+        {
+          "date": "13.12.2021",
+          "availablity": "8"
+        }
+      ],
+      "registration": false
     }
   ]
 }
