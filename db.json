@@ -1,4 +1,136 @@
 {
+  "formation_types": [
+    {
+      "id": "1",
+      "label": "PSC1"
+    },
+    {
+      "id": "2",
+      "label": "Type 2"
+    },
+    {
+      "id": "3",
+      "label": "Type 3"
+    },
+    {
+      "id": "4",
+      "label": "Type 4"
+    },
+    {
+      "id": "all",
+      "label": "Toutes les formations"
+    }
+  ],
+  "geo_ref": [
+    {
+      "name": "Paris",
+      "code": "75056",
+      "codeDepartment": "75",
+      "codeRegion": "11",
+      "codesPostal": [
+        "75001",
+        "75002",
+        "75003",
+        "75004",
+        "75005",
+        "75006",
+        "75007",
+        "75008",
+        "75009",
+        "75010",
+        "75011",
+        "75012",
+        "75013",
+        "75014",
+        "75015",
+        "75016",
+        "75017",
+        "75018",
+        "75019",
+        "75020"
+      ],
+      "population": 2190327
+    },
+    {
+      "name":"Hérault",
+      "code":"34",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150", "34000", "34070"],
+      "population":1165000
+    },
+    {
+      "name":"Aniane",
+      "code":"34010",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":2947
+    },
+    {
+      "name":"Arboras",
+      "code":"34011",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":126
+    },
+    {
+      "name":"La Boissière",
+      "code":"34035",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":1021
+    },
+    {
+      "name":"Gignac",
+      "code":"34114",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":6074
+    },
+    {
+      "name":"Lagamas",
+      "code":"34125",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":111
+    },
+    { "name":"Montpeyroux",
+      "code":"34173",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":1334
+    },
+    {
+      "name":"Puéchabon",
+      "code":"34221",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":483
+    },
+    {
+      "name":"Saint-Guilhem-le-Désert",
+      "code":"34261",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":256
+    },
+    {
+      "name":"Saint-Jean-de-Fos",
+      "code":"34267",
+      "codeDepartment":"34",
+      "codeRegion":"76",
+      "codesPostal":["34150"],
+      "population":1672
+    }
+  ],
   "formations": [
     {
       "id": "1543",
