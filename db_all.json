@@ -154,11 +154,11 @@
       },
       "sessions": [
         {
-          "date": "11.12.2021",
+          "date": "2021-12-10",
           "availability": "3"
         },
         {
-          "date": "13.12.2021",
+          "date": "2021-12-13",
           "availability": "10"
         }
       ],
@@ -216,11 +216,11 @@
       },
       "sessions": [
         {
-          "date": "11.12.2021",
+          "date": "2021-12-11",
           "availability": "0"
         },
         {
-          "date": "13.12.2021",
+          "date": "2021-12-13",
           "availability": "8"
         }
       ],
@@ -248,11 +248,11 @@
       },
       "sessions": [
         {
-          "date": "12.12.2021",
+          "date": "2021-12-12",
           "availability": "8"
         },
         {
-          "date": "13.12.2021",
+          "date": "2021-12-13",
           "availability": "8"
         }
       ],
@@ -285,12 +285,12 @@
     },
     "sessions": [
       {
-        "date": "11.12.2021",
+        "date": "2021-12-11",
         "hour_start": "9h",
         "availability": "3"
       },
       {
-        "date": "13.12.2021",
+        "date": "2021-12-13",
         "hour_start": "9h",
         "availability": "10"
       }
@@ -337,13 +337,13 @@
     },
     "sessions": [
       {
-        "date": "11.12.2021",
+        "date": "2021-12-11",
         "hour_start": "9h",
         "hour_end": "18h",
         "availability": "3"
       },
       {
-        "date": "13.12.2021",
+        "date": "2021-12-13",
         "hour_start": "9h",
         "hour_end": "18h",
         "availability": "10"
@@ -352,7 +352,7 @@
     "structure": {
       "id": "4500",
       "name": "Paris - 2ième arrondissement",
-      "tel": "00 00 00 00 00",
+      "phone": "00 00 00 00 00",
       "mail": "mail@structure.com"
     },
     "registration": true
@@ -372,7 +372,7 @@
       },
       "sessions": [
         {
-          "date": "11.12.2021",
+          "date": "2021-12-11",
           "hour_start": "9h",
           "hour_end": "18h"
         }
@@ -380,7 +380,7 @@
       "structure": {
         "id": "4500",
         "name": "Paris - 2ième arrondissement",
-        "tel": "00 00 00 00 00",
+        "phone": "00 00 00 00 00",
         "mail": "mail@structure.com"
       },
       "status": "pending",
@@ -474,7 +474,7 @@
       "title": "Nom de la mission",
       "type": "contact",
       "public": "all",
-      "date": "12.12.2021",
+      "date": "2021-12-12",
       "recurrence": false,
       "activities": [
         {
@@ -566,10 +566,191 @@
     "structure": {
       "id": "4500",
       "name": "Paris - 2ième arrondissement",
-      "tel": "00 00 00 00 00",
+      "phone": "00 00 00 00 00",
       "mail": "mail@structure.com"
     },
     "status": "pending",
     "attestation": "https://www.fichier-pdf.fr/2020/06/11/lorem-ipsum-1/?"
+  },
+  "structures": [
+    {
+      "id": "4500",
+      "title": "Nom de la structure",
+      "address": {
+        "department" : "75002",
+        "city": "Paris - 2ième arrondissement",
+        "label": "100 boulevard de la liberté",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "services": [
+        {
+          "label": "Lorem ipsum",
+          "hour_start": "9h",
+          "hour_end": "18h"
+        },
+        {
+          "label": "Lorem ipsum",
+          "hour_start": "9h",
+          "hour_end": "14h"
+        }
+      ],
+      "activities": [
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        },
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        },
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        },
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        },
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        }
+      ]
+    },
+    {
+      "id": "4501",
+      "title": "Nom de la structure",
+      "address": {
+        "department" : "75008",
+        "city": "Paris - 8ième arrondissement",
+        "label": "100 boulevard de la liberté",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "services": [
+        {
+          "label": "Lorem ipsum",
+          "hour_start": "9h",
+          "hour_end": "18h"
+        }
+      ],
+      "activities": [
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        }
+      ]
+    },
+    {
+      "id": "4502",
+      "title": "Nom de la structure",
+      "address": {
+        "department" : "750011",
+        "city": "Paris - 11ième arrondissement",
+        "label": "100 boulevard de la liberté",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "services": [
+        {
+          "label": "Lorem ipsum",
+          "hour_start": "9h",
+          "hour_end": "14h"
+        }
+      ],
+      "activities": [
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        },
+        {
+          "label": "Lorem ipsum",
+          "value": "lorem_ipsum"
+        }
+      ]
+    }
+  ],
+  "structure_detail": {
+    "id": "4500",
+    "title": "Nom de la structure",
+    "teaser": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt ",
+    "image": ["https://picsum.photos/500/300", "https://picsum.photos/500/300"],
+    "address": {
+      "department" : "75002",
+      "city": "Paris - 2ième arrondissement",
+      "label": "100 boulevard de la liberté",
+      "lat": "48.8587741",
+      "lng": "2.2069771"
+    },
+    "phone": "00 00 00 00 00",
+    "mail": "mail@structure.com",
+    "web": "https://structure.com",
+    "network": [
+      {
+        "label": "facebook",
+        "url": "https://facebook/structure.com"
+      }
+    ],
+    "services": [
+      {
+        "label": "Lorem ipsum",
+        "hour_start": "9h",
+        "hour_end": "18h"
+      },
+      {
+        "label": "Lorem ipsum",
+        "hour_start": "9h",
+        "hour_end": "14h"
+      }
+    ],
+    "activities": [
+      {
+        "label": "Lorem ipsum",
+        "value": "lorem_ipsum"
+      },
+      {
+        "label": "Lorem ipsum",
+        "value": "lorem_ipsum"
+      },
+      {
+        "label": "Lorem ipsum",
+        "value": "lorem_ipsum"
+      },
+      {
+        "label": "Lorem ipsum",
+        "value": "lorem_ipsum"
+      },
+      {
+        "label": "Lorem ipsum",
+        "value": "lorem_ipsum"
+      }
+    ],
+    "animals": true,
+    "languages": ["français", "anglais"],
+    "pmr": true,
+    "volunteers": "15",
+    "dps": "dps@structure.com",
+    "related_missions": ["35814", "45847", "34521"],
+    "related_training": ["35814", "45847", "34521"]
+  },
+  "user" : {
+    "email" : "user@gmail.com",
+    "firstname" : "firstname",
+    "name" : "username",
+    "civility" : "m",
+    "birthday" : {
+      "date" : "1992-08-26",
+      "country" : "France",
+      "city" : "Paris",
+      "department" : "75001"
+    },
+    "phone": "00 00 00 00 00",
+    "address": "3, chemin des faisans",
+    "zip": "75011",
+    "city": "Paris",
+    "contact": "Lorette Dubreuil",
+    "id1": "454545",
+    "id2": "dsf4e_df"
   }
 }

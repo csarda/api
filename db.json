@@ -154,11 +154,11 @@
       },
       "sessions": [
         {
-          "date": "11.12.2021",
+          "date": "2021-12-11",
           "availability": "3"
         },
         {
-          "date": "13.12.2021",
+          "date": "2021-12-13",
           "availability": "10"
         }
       ],
@@ -216,11 +216,11 @@
       },
       "sessions": [
         {
-          "date": "11.12.2021",
+          "date": "2021-12-11",
           "availability": "0"
         },
         {
-          "date": "13.12.2021",
+          "date": "2021-12-13",
           "availability": "8"
         }
       ],
@@ -248,11 +248,11 @@
       },
       "sessions": [
         {
-          "date": "12.12.2021",
+          "date": "2021-12-12",
           "availability": "8"
         },
         {
-          "date": "13.12.2021",
+          "date": "2021-12-13",
           "availability": "8"
         }
       ],
@@ -285,12 +285,12 @@
     },
     "sessions": [
       {
-        "date": "11.12.2021",
+        "date": "2021-12-11",
         "hour_start": "9h",
         "availability": "3"
       },
       {
-        "date": "13.12.2021",
+        "date": "2021-12-13",
         "hour_start": "9h",
         "availability": "10"
       }
@@ -384,7 +384,7 @@
       "title": "Nom de la mission",
       "type": "contact",
       "public": "all",
-      "date": "12.12.2021",
+      "date": "2021-12-12",
       "recurrence": false,
       "activities": [
         {
