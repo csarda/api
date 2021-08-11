@@ -1,135 +1,118 @@
 {
-  "formation_types": [
+  "formations": [
     {
-      "id": "1",
-      "label": "PSC1"
-    },
-    {
-      "id": "2",
-      "label": "Type 2"
-    },
-    {
-      "id": "3",
-      "label": "Type 3"
-    },
-    {
-      "id": "4",
-      "label": "Type 4"
-    },
-    {
-      "id": "all",
-      "label": "Toutes les formations"
-    }
-  ],
-  "geo_ref": [
-    {
-      "name": "Paris",
-      "code": "75056",
-      "codeDepartment": "75",
-      "codeRegion": "11",
-      "codesPostal": [
-        "75001",
-        "75002",
-        "75003",
-        "75004",
-        "75005",
-        "75006",
-        "75007",
-        "75008",
-        "75009",
-        "75010",
-        "75011",
-        "75012",
-        "75013",
-        "75014",
-        "75015",
-        "75016",
-        "75017",
-        "75018",
-        "75019",
-        "75020"
+      "id": "1543",
+      "type": "1",
+      "title": "Nom de la formation",
+      "format": "onsite",
+      "duration": "1 jour",
+      "reviews": {
+        "number": "4",
+        "rate": "3"
+      },
+      "location": {
+        "id" : "Paris",
+        "codeDepartment" : "75002",
+        "place": "Paris - 2ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "price": {
+        "value": "45,00",
+        "detail": "Lorem ipsum dolor sit amet"
+      },
+      "sessions": [
+        {
+          "date": "11.12.2021",
+          "availability": "3"
+        },
+        {
+          "date": "13.12.2021",
+          "availability": "10"
+        }
       ],
-      "population": 2190327
+      "registration": true
     },
     {
-      "name":"Hérault",
-      "code":"34",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150", "34000", "34070"],
-      "population":1165000
+      "id": "2351",
+      "type": "1",
+      "title": "Nom de la formation",
+      "format": "elearning",
+      "duration": "4 heures",
+      "reviews": {
+        "number": "12",
+        "rate": "3"
+      },
+      "price": {
+        "value": "30,00"
+      },
+      "registration": true
     },
     {
-      "name":"Aniane",
-      "code":"34010",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":2947
+      "id": "3485",
+      "type": "1",
+      "title": "Nom de la formation",
+      "format": "onsite",
+      "duration": "1 jour",
+      "reviews": {
+        "number": "1",
+        "rate": "4"
+      },
+      "location": {
+        "id" : "Paris",
+        "codeDepartment" : "75008",
+        "place": "Paris - 8ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "price": {
+        "value": "45,00",
+        "detail": "Lorem ipsum dolor sit amet"
+      },
+      "sessions": [
+        {
+          "date": "11.12.2021",
+          "availability": "0"
+        },
+        {
+          "date": "13.12.2021",
+          "availability": "8"
+        }
+      ],
+      "registration": false
     },
     {
-      "name":"Arboras",
-      "code":"34011",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":126
-    },
-    {
-      "name":"La Boissière",
-      "code":"34035",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":1021
-    },
-    {
-      "name":"Gignac",
-      "code":"34114",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":6074
-    },
-    {
-      "name":"Lagamas",
-      "code":"34125",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":111
-    },
-    { "name":"Montpeyroux",
-      "code":"34173",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":1334
-    },
-    {
-      "name":"Puéchabon",
-      "code":"34221",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":483
-    },
-    {
-      "name":"Saint-Guilhem-le-Désert",
-      "code":"34261",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":256
-    },
-    {
-      "name":"Saint-Jean-de-Fos",
-      "code":"34267",
-      "codeDepartment":"34",
-      "codeRegion":"76",
-      "codesPostal":["34150"],
-      "population":1672
+      "id": "3012",
+      "type": "1",
+      "title": "Nom de la formation",
+      "format": "onsite",
+      "duration": "1 jour",
+      "reviews": {
+        "number": "1",
+        "rate": "4"
+      },
+      "location": {
+        "id" : "Paris",
+        "codeDepartment" : "75011",
+        "place": "Paris - 11ième arrondissement",
+        "lat": "48.8587741",
+        "lng": "2.2069771"
+      },
+      "price": {
+        "value": "45,00",
+        "detail": "Lorem ipsum dolor sit amet"
+      },
+      "sessions": [
+        {
+          "date": "12.12.2021",
+          "availability": "8"
+        },
+        {
+          "date": "13.12.2021",
+          "availability": "8"
+        }
+      ],
+      "registration": false
     }
   ]
-
 }
