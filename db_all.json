@@ -570,7 +570,7 @@
       "mail": "mail@structure.com"
     },
     "status": "pending",
-    "attestation": "https://www.fichier-pdf.fr/2020/06/11/lorem-ipsum-1/?"
+    "attestation": "https://www.fichier-pdf.fr/2020/06/11/lorem-ipsum-1"
   },
   "structures": [
     {
@@ -751,6 +751,14 @@
     "city": "Paris",
     "contact": "Lorette Dubreuil",
     "id1": "454545",
-    "id2": "dsf4e_df"
+    "id2": "dsf4e_df",
+    "affiliation": {
+      "date": "1995-05-12",
+      "renewal": "2022-05-12",
+      "structure": "4500"
+    },
+    "tax_receipts": ["https://www.fichier-pdf.fr/2020/06/11", "https://www.fichier-pdf.fr/2019/06/11", "https://www.fichier-pdf.fr/2018/06/11"],
+    "related_missions": ["35814", "2351", "34521"],
+    "related_training": ["1543", "2351", "2372"]
   }
 }
