@@ -1,5 +1,5 @@
 {
-  "formation_types": [
+  "training_types": [
     {
       "id": "1",
       "label": "ABCD1"
@@ -131,7 +131,7 @@
       "population":1672
     }
   ],
-  "formations": [
+  "trainings": [
     {
       "id": "1543",
       "type": "1",
@@ -259,7 +259,7 @@
       "registration": false
     }
   ],
-  "formation_detail": {
+  "training_detail": {
     "id": "1543",
     "type": "1",
     "title": "Nom de la formation",

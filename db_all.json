@@ -1,5 +1,5 @@
 {
-  "formation_types": [
+  "training_types": [
     {
       "id": "1",
       "label": "ABCD1"
@@ -131,7 +131,7 @@
       "population":1672
     }
   ],
-  "formations": [
+  "trainings": [
     {
       "id": "1543",
       "type": "1",
@@ -259,7 +259,7 @@
       "registration": false
     }
   ],
-  "formation_detail": {
+  "training_detail": {
     "id": "1543",
     "type": "1",
     "title": "Nom de la formation",
@@ -297,7 +297,7 @@
     ],
     "registration": true
   },
-  "formation_teaser": {
+  "training_teaser": {
     "id": "1543",
     "type": "1",
     "title": "Nom de la formation",
@@ -310,7 +310,7 @@
     },
     "location" : "Paris"
   },
-  "formation_subscribe": {
+  "training_subscribe": {
     "id": "1543",
     "type": "1",
     "title": "Nom de la formation",
@@ -357,7 +357,7 @@
     },
     "registration": true
   },
-  "formation_account": {
+  "training_account": {
       "id": "1543",
       "type": "1",
       "title": "Nom de la formation",
@@ -523,7 +523,7 @@
     },
     "volunteers": "15",
     "availability": "5",
-    "related_training": ["1", "2"]
+    "related_trainings": ["1", "2"]
   },
   "mission_teaser": {
     "id": "1543",
@@ -732,7 +732,7 @@
     "volunteers": "15",
     "dps": "dps@structure.com",
     "related_missions": ["35814", "45847", "34521"],
-    "related_training": ["35814", "45847", "34521"]
+    "related_trainings": ["35814", "45847", "34521"]
   },
   "user" : {
     "email" : "user@gmail.com",
@@ -759,6 +759,6 @@
     },
     "tax_receipts": ["https://www.fichier-pdf.fr/2020/06/11", "https://www.fichier-pdf.fr/2019/06/11", "https://www.fichier-pdf.fr/2018/06/11"],
     "related_missions": ["35814", "2351", "34521"],
-    "related_training": ["1543", "2351", "2372"]
+    "related_trainings": ["1543", "2351", "2372"]
   }
 }
